@@ -1,8 +1,14 @@
 {
   "name": "decision-tree-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lib to itierate an object x throw a decision tree defined , and return the category of the object x",
   "main": "index.js",
+  "git":"https://github.com/himnabil/decision-tree-lib.git",
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/himnabil/decision-tree-lib.git"
+  },
+  "url":"https://github.com/himnabil/decision-tree-lib",
   "directories": {
     "test": "test"
   },
