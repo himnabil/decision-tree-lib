@@ -1,7 +1,7 @@
 [
     {"attr" : "age" , "resolver" : "compare","args" : { "gt_eq": 0, "lt" : 18 },"branche" : [
-        {"attr" : "sex", "resolver" : "compare", "args" : {"eq": "male"}, "category" : "Boy"},
-        {"attr" : "sex", "resolver" : "compare", "args" : {"eq" : "female"}, "category" : "Girl"}
+        {"attr" : ["sex"], "resolver" : "compare", "args" : {"eq": "male"}, "category" : "Boy"},
+        {"attr" : ["sex"], "resolver" : "compare", "args" : {"eq" : "female"}, "category" : "Girl"}
     ]},
     {"attr" : "age", "resolver" : "compare", "args" : {"gt_eq" : 18}, "category" : "Adult"}
 ]
